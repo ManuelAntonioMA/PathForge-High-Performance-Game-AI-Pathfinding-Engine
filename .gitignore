@@ -1,0 +1,20 @@
+# C++ / CMake
+build/
+out/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# Python / Django
+__pycache__/
+*.py[cod]
+venv/
+.env
+db.sqlite3
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
