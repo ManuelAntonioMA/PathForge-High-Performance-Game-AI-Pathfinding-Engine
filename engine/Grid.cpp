@@ -2,6 +2,7 @@
 #include <fstream>
 #include <sstream>
 #include <iostream>
+#include <string>
 
 Grid::Grid() : width(0), height(0) {}
 

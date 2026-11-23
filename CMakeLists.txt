@@ -30,3 +30,7 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(pybind11)
 
 #we will link the engine, bindings, and tests here in phase 2
+
+enable_testing()
+add_subdirectory(tests)
+add_subdirectory(bench)
